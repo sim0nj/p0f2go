@@ -13,6 +13,7 @@ func TestDataNotEmpty(t *testing.T) {
 			break
 		}
 	}
+
 	if !found {
 		t.Fatalf("missing http:response section")
 	}
