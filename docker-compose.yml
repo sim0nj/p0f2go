@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  p0f-xdp:
+    build: .
+    network_mode: "host"
+    environment:
+      - IFACE=eth0
+    cap_add:
+      - BPF
+      - NET_ADMIN
+      - SYS_RESOURCE
+      - PERFMON
+    restart: unless-stopped
