@@ -1,4 +1,4 @@
-module p0f2go
+module github.com/sim0nj/p0f2go
 
 go 1.24.0
 

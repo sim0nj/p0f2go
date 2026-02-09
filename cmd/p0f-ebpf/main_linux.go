@@ -17,7 +17,7 @@ import (
 	"syscall"
 	"time"
 
-	"p0f2go/p0f"
+	"github.com/sim0nj/p0f2go/p0f"
 )
 
 func htons(v uint16) uint16 { return (v<<8)&0xff00 | v>>8 }

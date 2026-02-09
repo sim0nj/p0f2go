@@ -1,4 +1,4 @@
-# p0f2go 项目计划（Agent）
+# github.com/sim0nj/p0f2go 项目计划（Agent）
 
 ## 项目目标
 - 构建可在生产环境稳定运行的被动式 OS 指纹识别 Agent

@@ -1,4 +1,4 @@
-# p0f2go
+# github.com/sim0nj/p0f2go
 
 被动式 OS 指纹识别库与抓取工具，基于 p0f.fp 生成常量数据，支持 Linux 原始套接字与 eBPF（XDP/后续可扩展 TC）。
 
@@ -81,4 +81,4 @@ make test            # 运行 Go 测试（基础校验）
 - 当前 Detect 为简化启发式，后续将以签名匹配为准
 
 ## 文档索引
-- 查看所有文档：[doc/README.md](file:///Users/simon/go/src/p0f2go/doc/README.md)
+- 查看所有文档：[doc/README.md](file:///Users/simon/go/src/github.com/sim0nj/p0f2go/doc/README.md)

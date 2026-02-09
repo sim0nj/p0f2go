@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	"p0f2go/p0f"
+	"github.com/sim0nj/p0f2go/p0f"
 
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"

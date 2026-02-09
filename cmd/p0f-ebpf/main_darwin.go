@@ -17,7 +17,7 @@ import (
 	"syscall"
 	"time"
 
-	"p0f2go/p0f"
+	"github.com/sim0nj/p0f2go/p0f"
 
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"

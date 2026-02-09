@@ -12,6 +12,8 @@
 - options：TCP 选项列表（mss、ws、sok、ts、nop）
 - ecn：是否启用 ECN
 
+## 
+
 ## 输出示例
 ```json
 {"label":"Linux:3.x","ttl":64,"win":64240,"mss":1460,"options":["mss","sok","ts","nop","ws"],"ecn":false,"src_ip":"10.0.0.1","dst_ip":"10.0.0.2","src_port":12345,"dst_port":443}
@@ -57,7 +59,7 @@
 - 假设 Agent 暴露 /metrics（文本格式），Prometheus 配置示例：
 ```yaml
 scrape_configs:
-  - job_name: p0f2go
+  - job_name: github.com/sim0nj/p0f2go
     static_configs:
       - targets: ['10.0.0.10:9100']  # 示例端口
     metrics_path: /metrics
@@ -74,5 +76,5 @@ p0f_sampling_ratio 0.5
 ```
 
 ## 相关代码
-- XDP： [p0f-ebpf-xdp/main_linux.go](file:///Users/simon/go/src/p0f2go/cmd/p0f-ebpf-xdp/main_linux.go)
-- RAW： [p0f-ebpf/main_linux.go](file:///Users/simon/go/src/p0f2go/cmd/p0f-ebpf/main_linux.go)
+- XDP： [p0f-ebpf-xdp/main_linux.go](file:///Users/simon/go/src/github.com/sim0nj/p0f2go/cmd/p0f-ebpf-xdp/main_linux.go)
+- RAW： [p0f-ebpf/main_linux.go](file:///Users/simon/go/src/github.com/sim0nj/p0f2go/cmd/p0f-ebpf/main_linux.go)
